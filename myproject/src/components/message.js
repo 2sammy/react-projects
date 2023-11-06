@@ -7,4 +7,10 @@ class Message extends Component {
     }
 
 }
-export default Message
+
+class Content extends Component {
+    render(){
+        return <h2>Message: {this.props.content}</h2>
+    }
+}
+export default {Message, Content}
