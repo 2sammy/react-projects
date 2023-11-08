@@ -4,11 +4,16 @@ import './App.css';
 import Counter from './components/Counter';
 import {Message, Content} from './components/message';
 import Profile from './components/Profile';
+import Resume from './components/Resume';
 
 function App() {
   return (
     <div className="App">
-     <Counter />
+      <Profile name="mike" lastname= "sanchez" />
+      <Message content="hello receive my content" />
+      <h1>hello ,my profile picture</h1>
+      <Content />
+
       
       </div>
   )
