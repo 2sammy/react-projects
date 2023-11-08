@@ -3,7 +3,7 @@ import { Component } from "react";
 class Resume extends Component{
     render() {
         const {name} = this.props
-        return<h1> hello Class component</h1>
+        return<h1> hello Class component{name}</h1>
     }
     
 }

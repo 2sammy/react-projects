@@ -5,7 +5,7 @@ import Counter from './components/Counter';
 import {Message, Content} from './components/message';
 import Profile from './components/Profile';
 import Resume from './components/Resume';
-
+import FunctionEvent from './components/FunctionEvent';
 function App() {
   return (
     <div className="App">
@@ -13,6 +13,8 @@ function App() {
       <Message content="hello receive my content" />
       <h1>hello ,my profile picture</h1>
       <Content />
+      <Resume />
+      <FunctionEvent />
 
       
       </div>
