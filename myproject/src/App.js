@@ -6,6 +6,7 @@ import {Message, Content} from './components/message';
 import Profile from './components/Profile';
 import Resume from './components/Resume';
 import FunctionEvent from './components/FunctionEvent';
+import ClassEvent from './components/ClassEvent';
 function App() {
   return (
     <div className="App">
@@ -15,6 +16,7 @@ function App() {
       <Content />
       <Resume />
       <FunctionEvent />
+      <ClassEvent />
 
       
       </div>
