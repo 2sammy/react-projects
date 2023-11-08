@@ -7,6 +7,7 @@ import Profile from './components/Profile';
 import Resume from './components/Resume';
 import FunctionEvent from './components/FunctionEvent';
 import ClassEvent from './components/ClassEvent';
+import FunctionalComponent from './components/FunctionalComponent';
 function App() {
   return (
     <div className="App">
@@ -17,6 +18,7 @@ function App() {
       <Resume />
       <FunctionEvent />
       <ClassEvent />
+      <FunctionalComponent />
 
       
       </div>
