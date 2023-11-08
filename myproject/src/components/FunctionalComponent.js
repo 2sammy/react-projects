@@ -1,6 +1,11 @@
 import { useState } from "react";
 function FunctionalComponent(){
     const [counter, setCounter]= useState(0)
+    const [counting, setCounting] = useState(100)
+
+    const decrement = () => {
+        setCounting(counting -1);
+    }
     const increment =() => {
         setCounter(counter + 1);
 
@@ -12,6 +17,9 @@ function FunctionalComponent(){
 
     <div>
         <button onClick={increment}>crement</button>
+    </div>
+    <div>
+        <button onClick={decrement}>crement</button>
     </div>
     
     </div>
